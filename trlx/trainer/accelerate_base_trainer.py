@@ -521,7 +521,7 @@ class AccelerateRLTrainer(BaseRLTrainer):
         """
         logger.info("Starting training")
 
-        self.prepare_learning()
+        #self.prepare_learning()
         self.iter_count = 0
         self.nth_evaluation = 0
 
